@@ -10,7 +10,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $experience = $_POST['experience'];
 
     // رابط ويب هوك ديسكورد
-    $webhook_url = "https://discord.com/api/webhooks/1356864322101313697/xFC08eJf7LkTdAydgr58dEfPh3FqLEZaWfoswqWoS6RENEb9_3UDxZCqE5z7cOErb7aN"; // ضع رابط ويب هوك هنا
+    $webhook_url = "https://webhook.site/622a6d16-f945-4d5f-9ebe-8fd2fb1ea1c4"; // ضع رابط ويب هوك هنا
 
     // تنسيق البيانات لإرسالها إلى ديسكورد
     $json_data = json_encode([
